@@ -295,6 +295,15 @@ a:focus {
   background-color: #b7b7b7;
 }
 
+.fruit_section .heading_container .prices hr {
+  width: 10%;
+  height: 1px;
+  border: none;
+  margin: 0;
+  margin-right: 10px;
+  background-color: #b7b7b7;
+}
+
 .fruit_section .heading_container h2 {
   margin: 0;
 }
