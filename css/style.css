@@ -399,6 +399,11 @@ table, th, td {
   text-align: justify;
 }
 
+.facebook_logo {
+  vertical-align: initial;
+  margin-left: 15px;
+}
+
 .client_section .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;

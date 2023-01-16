@@ -103,23 +103,20 @@
       <div class="layout_padding2-top">
         <div class="row">
           <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
-            <form action="">
+            <form name="contact_form" method="POST" action="mailto:wevokop982@webonoid.com">
               <div class="contact_form-container">
                 <div>
                   <div>
-                    <input type="text" placeholder="Full Name" />
+                    <input type="text" name="name" placeholder="Full Name" />
                   </div>
                   <div>
-                    <input type="email" placeholder="Email" />
+                    <input type="email" name="email" placeholder="Email" />
                   </div>
                   <div>
-                    <input type="text" placeholder="Phone Number" />
+                    <input type="text" name="message" class="message_input" placeholder="Message" />
                   </div>
                   <div>
-                    <input type="text" class="message_input" placeholder="Message" />
-                  </div>
-                  <div>
-                    <button type="submit">
+                    <button type="submit" value="Submit">
                       Send
                     </button>
                   </div>
@@ -136,6 +133,15 @@
           </div>
         </div>
       </div>
+
+      <script>
+        // Code for validating the form
+        let frmvalidator  = new Validator("contact_form");
+        frmvalidator.addValidation("name","req","Please provide your name");
+        frmvalidator.addValidation("email","req","Please provide your email");
+        frmvalidator.addValidation("email","email","Please enter a valid email address");
+      </script>
+
     </div>
   </section>
   <!-- end contact section -->
@@ -234,6 +240,7 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/gen_validatorv31.js"></script>
 
 </body>
 
