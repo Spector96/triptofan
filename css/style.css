@@ -12,6 +12,10 @@ body {
   padding: 45px 0;
 }
 
+.layout_padding3 {
+  padding: 25px 0;
+}
+
 .layout_padding2-top {
   padding-top: 45px;
 }
@@ -295,6 +299,15 @@ a:focus {
   background-color: #b7b7b7;
 }
 
+.fruit_section .heading_container .prices hr {
+  width: 10%;
+  height: 1px;
+  border: none;
+  margin: 0;
+  margin-right: 10px;
+  background-color: #b7b7b7;
+}
+
 .fruit_section .heading_container h2 {
   margin: 0;
 }
@@ -370,6 +383,29 @@ a:focus {
 .fruit_section .fruit_container .box:hover .link_box {
   top: 0;
   opacity: 0.9;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.costume_cell {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.img-box .fit_img {
+  width: 100%;
+  height: auto;
+}
+
+.about_text p {
+  text-align: justify;
+}
+
+.facebook_logo {
+  vertical-align: initial;
+  margin-left: 15px;
 }
 
 .client_section .heading_container {
