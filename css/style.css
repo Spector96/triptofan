@@ -12,6 +12,10 @@ body {
   padding: 45px 0;
 }
 
+.layout_padding3 {
+  padding: 25px 0;
+}
+
 .layout_padding2-top {
   padding-top: 45px;
 }
@@ -390,8 +394,8 @@ table, th, td {
   vertical-align: middle !important;
 }
 
-.img-box .about_img {
-  max-width: 100%;
+.img-box .fit_img {
+  width: 100%;
   height: auto;
 }
 
